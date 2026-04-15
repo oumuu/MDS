@@ -1,0 +1,13 @@
+h1 {
+    color: aqua;
+}
+h3 {
+    color: aquamarine;
+}
+ul {
+    color: rgb(98, 83, 231);
+}
+* {
+    background-color: rgb(23, 22, 30);
+    font-family: 'Courier New', Courier, monospace;
+}
