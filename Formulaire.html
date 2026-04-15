@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire de contact</title>
+    <link rel="stylesheet" href="Formulaire.css">
+</head>
+<body>
+    <main class="page">
+        <section class="form-card" aria-label="Formulaire de contact">
+            <header class="form-header">
+                <h1>Contactez-nous via ce formulaire </h1>
+                <p>Un message rapide, et nous revenons vers vous sous 24h.</p>
+            </header>
+
+            <form action="submit_form.php" method="post" novalidate>
+                <div class="form-row">
+                    <label for="name">Nom</label>
+                    <input type="text" id="name" name="name" placeholder="Sissoko" required>
+                </div>
+
+                <div class="form-row">
+                    <label for="surname">Prénom</label>
+                    <input type="text" id="surname" name="surname" placeholder="Aminata" required>
+                </div>
+
+                <div class="form-row">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="aminata@gmail.com" required>
+                </div>
+
+                <div class="form-row">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" placeholder="Écrivez votre message ici..." required></textarea>
+                </div>
+
+                <div class="action-row">
+                    <input type="submit" value="Envoyer le message">
+                </div>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
